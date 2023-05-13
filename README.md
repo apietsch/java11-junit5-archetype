@@ -15,10 +15,10 @@ mvn install
 When the archetype has been installed locally you can create a project using the command below. Just replace the parameter values with the actual values you want to use.
 
 ``` shell
- mvn archetype:generate -DarchetypeGroupId=com.deangerber.archetypes \
-                        -DarchetypeArtifactId=java11-junit5-archetype \
-                        -DarchetypeVersion=1.0.0-SNAPSHOT \
-                        -DgroupId=com.deangerber.kata.stringcalculator \
+ mvn archetype:generate -DarchetypeGroupId=be.pengo.archetypes \
+                        -DarchetypeArtifactId=java17-junit5-archetype \
+                        -DarchetypeVersion=1.1.0-SNAPSHOT
+                        -DgroupId=be.pengo.kata.stringcalculator \
                         -DartifactId=stringcalculator \
                         -Dversion=1.0.0-SNAPSHOT \
                         -DinteractiveMode=false
