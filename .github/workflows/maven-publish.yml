@@ -4,6 +4,12 @@
 name: Maven Package
 
 on:
+  label:
+    types:
+      - created
+  push:
+    branches:
+      - master 
   release:
     types: [created]
         
