@@ -24,6 +24,12 @@
         <include>**/*.java</include>
       </includes>
     </fileSet>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/main/kotlin</directory>
+      <includes>
+        <include>**/*.kt</include>
+      </includes>
+    </fileSet>
     <fileSet>
       <directory>src/main/resources</directory>
       <includes>
@@ -33,7 +39,13 @@
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/test/java</directory>
       <includes>
-        <include>**/*Should.java</include>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/test/kotlin</directory>
+      <includes>
+        <include>**/*.kt</include>
       </includes>
     </fileSet>
     <fileSet>
