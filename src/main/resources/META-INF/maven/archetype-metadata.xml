@@ -52,6 +52,7 @@
       <directory>src/test/resources</directory>
       <includes>
         <include>**/.gitkeep</include>
+        <include>**/two-column.csv</include>
       </includes>
     </fileSet>
   </fileSets>

@@ -1,6 +1,8 @@
-# Java 11 + JUnit 5 Quick Start Maven Archetype
+# Java 17 + Kotlin 1.8 + JUnit 5 Quick Start Maven Archetype
 
-Maven archetype to create a project configured for Java 11 and using JUnit 5.
+forked and adapted from https://github.com/franz-see/junit5-archetype
+
+Maven archetype to create a project configured for Java 17, Kotlin and using JUnit 5.
 
 ## Install archetype in local repository
 
@@ -26,13 +28,17 @@ When the archetype has been installed locally you can create a project using the
 
 ## References
 
-* [Maven](https://maven.apache.org)
-* [Maven Archetype](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html)
-* [JUnit 5](https://junit.org/junit5/)
-* [Hamcrest](http://hamcrest.org/JavaHamcrest/)
+This will create a maven project from scratch that is configured for JDK8, and JUnit5. In its test directory, it will also contain several feature showcase for JUnit5:
 
-## License
-
-Copyright © 2022 [Dean Gerber](https://github.com/deangerber).
-
-This project is [MIT](https://github.com/deangerber/java11-junit5-archetype/blob/master/LICENSE) licensed.
+Assertions
+Assumptions
+@Disabled
+@DisplayName
+Dynamic Tests
+Parameterized Tests
+Repeated Tests
+@BeforeAll, @BeforeEach, @AfterEach, @AfterAll
+TestInfo
+Tests Tagging
+Nested tests
+Test Lifecycle
