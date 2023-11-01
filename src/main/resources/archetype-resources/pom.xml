@@ -22,14 +22,6 @@
     <kotlin.version>1.8.20</kotlin.version>
   </properties>
 
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub OWNER Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/apietsch/java-junit5-archetype</url>
-    </repository>
-  </distributionManagement>
-
   <build>
     <finalName>${artifactId}</finalName>
     <plugins>

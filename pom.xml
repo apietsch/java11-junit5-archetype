@@ -19,6 +19,14 @@
     </extensions>
   </build>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/apietsch/java-junit5-archetype</url>
+    </repository>
+  </distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
