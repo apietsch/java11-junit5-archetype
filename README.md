@@ -43,6 +43,11 @@ Tests Tagging
 Nested tests
 Test Lifecycle
 
+
+# to configure the publishing action see
+
+https://docs.github.com/en/actions/publishing-packages/publishing-java-packages-with-maven#publishing-packages-to-github-packages
+
 # to use this without building and installing locally use this in ~/.m2/settings.xml
 
 ```
