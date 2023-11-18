@@ -7,3 +7,8 @@ Also with kotlin: https://www.baeldung.com/kotlin/maven-java-project
 https://www.baeldung.com/maven-download-sources-javadoc
 mvn dependency:resolve -Dclassifier=javadoc
 mvn dependency:sources dependency:resolve -Dclassifier=javadoc
+
+# run mvn test as an example
+```
+mvn test
+```
